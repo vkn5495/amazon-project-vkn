@@ -1,0 +1,87 @@
+.RelatedProducts img{
+    width: 13rem;
+    height: 12rem;
+    object-fit: contain;
+}
+.RelatedProducts .container{
+    padding: 1rem;
+}
+.RelatedProducts .container .list .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.RelatedProducts .container .list .box .text {
+    padding:0 5px;
+}
+.RelatedProducts .container .list .box .text .name{
+    font-size: 13px;
+    max-height: 5.2rem;
+    overflow: hidden;
+}
+.RelatedProducts .container .list .box .text .products{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.RelatedProducts .container .list .box .text .products .qty{
+    font-size: 14px;
+    opacity: .7;
+}.RelatedProducts .container .list .box .text .price{
+    color: #d30303;
+}
+.RelatedProducts .container .list .box .text .products .stars{
+    color: #d30303;
+}
+.RelatedProducts .container .list .box .text .bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.RelatedProducts .container .list .box .text .bar span{
+    font-size: 25px;
+}
+.RelatedProducts .container .list .box
+.RelatedProducts .container h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+.RelatedProducts .container p{
+    font-size: 11px;
+}
+
+.RelatedProducts .contral-btn{
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    width: 100%;
+    z-index: 7;
+    
+}
+
+.RelatedProducts .contral-btn .next, 
+.RelatedProducts .contral-btn .prev{
+    border: none;
+    background: none;
+    font-size: 38px;
+    color: #fff;
+    opacity: .6;
+    padding:  2rem 10px;
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.RelatedProducts .contral-btn .next:hover, 
+.RelatedProducts .contral-btn .prev:hover{
+    border: 1px solid rgb(232, 232, 232);
+    background-color: #d4d4d4;
+}
+
+.RelatedProducts .contral-btn .next{
+    right: 2%;
+    position: absolute;
+}
+.RelatedProducts .contral-btn .prev{
+    left: 2%;
+    position: absolute;
+}

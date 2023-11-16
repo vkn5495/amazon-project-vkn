@@ -1,0 +1,115 @@
+.ProductLists{
+    background: #fff;
+    margin-top: 100px;
+}
+.ProductLists .container{
+    padding: 1rem;
+}
+.ProductLists .container h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.ProductLists .container .content{
+    font-size: 14px;
+    padding: .6rem 0;
+}
+.ProductLists .container .content .manage .icon{
+    font-size: 24px;
+    margin-top: 5px;
+}
+.ProductLists .container .under_list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.ProductLists .container .under_list_close{
+    display: none;
+}
+.ProductLists .container .under_list .module_history{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+.ProductLists .container .under_list .module_history .text{
+    font-weight: 700;
+}
+.ProductLists .container .under_list .module_history .module_icon{
+    font-size: 22px;
+    padding-top: 7px;
+    
+}
+.ProductLists .container .under_list .module_history .red{
+    color: rgb(255, 32, 32);
+}
+.ProductLists .container .under_list .module_history .green{
+    color: rgb(0, 168, 0);
+}
+.ProductLists .container .under_list .remove{
+    padding: 7px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0 0 0 /.1)0 4px 6px;
+}
+.ProductLists .container .list_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,13rem));
+}
+.ProductLists .container .list_items .box{
+    padding: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    text-align: center;
+}
+.ProductLists .container .list_items .box img{
+    width: 10rem;
+    object-fit: cover;
+    height: 10rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+.ProductLists .container .list_items .box .text .name{
+    max-height: 1rem;
+    font-size: 14px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ProductLists .container .list_items .box .text .stars{
+    font-size: 15px;
+    color: #ff8731;
+}
+
+.ProductLists .container .list_items .box .text span{
+    font-size: 12px;
+}
+.ProductLists .container .list_items .box .text .price{
+    font-size: 15px;
+    color: #d3500e;
+}
+.ProductLists .container .list_items .box .arrive{
+    padding: 3px 0;
+}
+.ProductLists .container .list_items .box .arrive span:last-child{
+    font-weight: 600;
+}
+.ProductLists .container .list_items .box button{
+    font-size: 11px;
+    border: 1px solid #e9e9e9;
+    background-color: transparent;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0 0 0 /.1)0 1px 3px;
+    margin-bottom: 5px;
+}
+.ProductLists .container .list_items .box button:hover{
+    background-color: #f7fbff;
+}

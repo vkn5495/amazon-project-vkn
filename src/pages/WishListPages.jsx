@@ -1,0 +1,31 @@
+import React, { useContext } from 'react'
+import WishList from '../components/WishList/WishList'
+import BrowsingHistory from '../components/browsingHistory/browsingHistory'
+import CartEdge from '../components/CartEdge/CartEdge'
+import { ContextAmazon } from '../components/ContextOfCart/ContextAmezon'
+
+const WishListPages = () => {
+  const context = useContext(ContextAmazon)
+  const quantity = context.cartItems.length
+  return (
+    <div style={{
+        
+    }}>
+      <div>
+      <div className="cart_items_ds">
+      <div className={quantity === 0 ?'let_home_width' :"let_home"}
+        style={{background:'#fff'}}>
+        <WishList />
+      <BrowsingHistory />
+        </div>
+        <div className={quantity === 0 ?'display_none': "let_cart_item"}>
+          <CartEdge />
+        </div>
+      </div>
+    </div>
+      
+    </div>
+  )
+}
+
+export default WishListPages

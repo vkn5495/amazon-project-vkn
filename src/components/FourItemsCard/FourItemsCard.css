@@ -1,0 +1,34 @@
+.fourItems{
+    flex: 1 1 48%;
+    height: 100%;
+    text-align: center;
+    width: 48%;
+}
+.fourItems .box{
+    max-height: 11rem;
+    width: 9rem;
+    cursor: pointer;
+    background-color: white;
+}
+.fourItems .box .name{
+    width: 8rem;
+    overflow: hidden;
+    height: 1.1rem;
+    text-align: center;
+}
+.fourItems .box .name span{
+    display: inline-block;
+    overflow: hidden;
+    /* text-align: center; */
+}
+.fourItems .img{
+    max-width: 9rem;
+    margin: auto;
+}
+.fourItems img{
+    width: 100%;
+    height: auto;
+    max-height: 9rem;
+    object-fit: contain;
+    margin: auto;
+}

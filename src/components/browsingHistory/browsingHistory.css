@@ -1,0 +1,65 @@
+.browsingHistory{
+    
+    padding: 1rem;
+}
+.browsingHistory .container{
+    padding: 1rem;
+    background-color: #fff;
+}
+.browsingHistory .container .header{
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+.browsingHistory .container .header .heading{
+    font-size: 21px;
+    font-weight: 700;
+    opacity: .7;
+}
+.browsingHistory .container .header .all_items_his{
+    font-size: 14px;
+}
+.browsingHistory .container .image_silder .img{
+    margin: auto;
+    cursor: pointer;
+}
+.browsingHistory .container img{
+    height: 8rem;
+    margin: auto;
+}
+.browsingHistory .contral-btn{
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    width: 100%;
+    z-index: 7;
+    
+}
+
+.browsingHistory .contral-btn .next, 
+.browsingHistory .contral-btn .prev{
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    opacity: .6;
+    padding:  1rem 5px;
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.browsingHistory .contral-btn .next:hover, 
+.browsingHistory .contral-btn .prev:hover{
+    border: 1px solid rgb(232, 232, 232);
+    background-color: #d4d4d4;
+}
+
+.browsingHistory .contral-btn .next{
+    right: 0%;
+    position: absolute;
+}
+.browsingHistory .contral-btn .prev{
+    left: 0;
+    position: absolute;
+}

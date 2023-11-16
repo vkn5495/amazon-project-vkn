@@ -1,0 +1,788 @@
+.wish_lists {
+    margin-top: 100px;
+    position: relative;
+}
+.wish_lists .container{
+    padding: 1rem;
+}
+.wish_lists .img img {
+    width: 13rem;
+    max-height: 13rem;
+    object-fit: contain;
+}
+
+.wish_lists .body_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wish_lists .body_header .heading {
+    display: flex;
+    align-items: center;
+}
+
+.wish_lists .body_header .heading h2 {
+    padding: .5rem 1rem;
+    font-weight: 600;
+}
+
+.wish_lists .body_header .heading h2:first-child {
+    border-bottom: 3px solid #3b3b7a;
+}
+
+
+
+
+.wish_lists .wish_details {
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.wish_lists .wish_details .wish_body {
+    display: flex;
+    gap: 2rem;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box {
+    width: 16rem;
+    padding: 5px 8px;
+    cursor: pointer;
+    background-color: #e2e2e2;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box .flex_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box .flex_head h4 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box .flex_head p {
+    font-size: 11px;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box span {
+    font-size: 12px;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box:hover span {
+    color: #d97e1d;
+}
+
+.wish_lists .wish_details .wish_body .left_list .box:hover .flex_head {
+    color: #d97e1d;
+    text-decoration: underline;
+}
+
+.wish_lists .wish_body .right_list {
+    width: 100%;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .head {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .head h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .head p {
+    font-size: 14px;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .share {
+    display: flex;
+    gap: 8px;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .share .send,
+.more {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .share span {
+    font-size: 22px;
+}
+
+.wish_lists .wish_body .right_list .first .shop_list .justify .share p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite {
+    gap: 5px;
+    margin: 5px;
+    /* cursor: pointer; */
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite .profile {
+    width: 2rem;
+    height: 2rem;
+    background-color: #e6e6e6;
+    border: 1px solid #cecece;
+    border-radius: 50%;
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite .invite {
+    border: 1px solid #cecece;
+    padding: 4px 10px;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 17px;
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite .invite:hover span,
+.wish_lists .wish_body .right_list .first .profile_invite .invite:hover p {
+    color: #d97e1d;
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite .invite:hover {
+    border: 1px solid #d97e1d;
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite .invite span {
+    color: blue;
+}
+
+.wish_lists .wish_body .right_list .first .profile_invite .invite p {
+    font-size: 14px;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_style {
+    font-size: 15px;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_style span {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.wish_lists .wish_body .right_list .second
+ .second_justify .under_line {
+    border-bottom: 1px solid red;
+}
+
+.wish_lists .wish_body .right_list .second
+ .second_justify .type_search {
+    gap: 1rem;
+    position: relative;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search .search_box span {
+    position: absolute;
+    font-size: 25px;
+    top: 2px;
+    left: .5rem;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search input {
+    padding: 5px 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search .filter{
+    position: relative;
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search .filter 
+.filter_box{
+    position: absolute;
+    flex-direction: column;
+    z-index: 111;
+    width: 11rem;
+    display: flex;
+    border-radius: 5px;
+    /* align-items: center; */
+    box-shadow: rgba(0 0 0 /.1)0 5px 7px;
+    justify-content: center;
+    background-color: #fff;
+    top: 1.9rem;
+    opacity: 1;
+    left: -3.5rem;
+    border: 1px solid rgb(207, 207, 207);
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search .filter 
+.filter_box_close{
+    opacity: 0;
+    display: none;
+    transition: .3s;
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box .head{
+    padding: 5px 1rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box .pad{
+    padding:1px 8px;
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box .pad:first-child{
+    border: 1px solid rgb(216, 216, 216);
+    background-color: #bcf6f3;
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box{
+    padding-bottom: 5px;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box p{
+    padding: 1px 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box p:hover{
+    background-color: #dfdfdf;
+    
+}
+.wish_lists .wish_body .right_list .second .second_justify .type_search 
+.filter .filter_box .pad:first-child p{
+    border-left: 4px solid orange;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search .filter p {
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.wish_lists .wish_body .right_list .second .second_justify .type_search .filter span {
+    padding-top: 5px;
+}
+
+.wish_lists .wish_body .right_list .items {
+    padding: 1rem;
+}
+
+.wish_lists .wish_body .right_list .items .box .left_text {
+    font-size: 13px;
+    max-width: 25rem;
+}
+
+.wish_lists .wish_body .right_list .items .box .left_text .rates {
+    gap: 3px;
+}
+
+.wish_lists .wish_body .right_list .items .box .left_text .rates .stars {
+    font-size: 15px;
+    color: #d97e1d;
+}
+
+
+.wish_lists .wish_body .right_list .items .box .left_text .price {
+    gap: 5px;
+}
+
+.wish_lists .wish_body .right_list .items .box .left_text .price span:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wish_lists .wish_body .right_list .items .box .left_text .size_color {
+    flex-wrap: wrap;
+    font-size: 12px;
+    gap: 8px;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text {
+    font-size: 12px;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #ffbe3b;
+    border: none;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: rgba(0 0 0 /.1)0 5px 8px;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text button:hover {
+    background-color: #f3b538;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text .row {
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.wish_lists .wish_body .right_list .items .box
+ .right_text .row .move {
+    display: flex;
+}
+
+.wish_lists .wish_body .right_list .items .box 
+.right_text .row .move span:first-child {
+    padding-right: 5px;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text .row .move,
+.wish_lists .wish_body .right_list .items .box .right_text .row .upload,
+.wish_lists .wish_body .right_list .items .box .right_text .row .delete {
+    padding: 3px 1rem 0 1rem;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0 0 0 /.1)0 3px 4px;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text .row .move span:last-child,
+.wish_lists .wish_body .right_list .items .box .right_text .row .upload,
+.wish_lists .wish_body .right_list .items .box .right_text .row .delete {
+    font-size: 16px;
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text .row .move:hover,
+.wish_lists .wish_body .right_list .items .box .right_text .row .upload:hover,
+.wish_lists .wish_body .right_list .items .box .right_text .row .delete:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.wish_lists .wish_body .right_list .items .box .right_text .end_text {
+    padding: 1rem 0;
+}
+
+.wish_lists .wish_body .right_list .items_two {
+    display: grid;
+    padding: 10px 5px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,17rem));
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+.wish_lists .right_list .items_two .box .details {
+    border: 1px solid rgb(222, 222, 222);
+    padding: 5px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.wish_lists .right_list .items_two .box .details .img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.wish_lists .right_list .items_two .box .details .img_view{
+    overflow: hidden;
+    position: relative;
+}
+.wish_lists .right_list .items_two .box .details
+.img_view:hover .view{
+   bottom: 45%;
+}
+.wish_lists .right_list .items_two .box .details .view{
+   position: absolute;
+   bottom: -55%;
+   padding: 5px;
+   cursor: pointer;
+   left: 5%;
+   width: 85%;
+   margin: auto;
+   background-color: #ffffff;
+   border: 1px solid rgb(219, 219, 219);
+   box-shadow: rgba(0 0 0 /.1)0 3px 5px;
+   border-radius: 15px;
+   font-size: 13px;
+   text-align: center;
+   transition: .5s;
+}
+
+.wish_lists .right_list .items_two .box .details .text {
+    padding: 5px 1rem;
+    font-size: 14px;
+}
+
+.wish_lists .right_list .items_two .box .details .text .price {
+    color: #575757;
+}
+
+.wish_lists .right_list .items_two .box .details .text button {
+    padding: 5px 1rem;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+    background-color: #ffec5d;
+    font-size: 13px;
+    border: none;
+}
+
+.wish_lists .right_list .items_two .box .details .text button:hover {
+    background-color: #f5e041;
+}
+
+.wish_lists .right_list .items_two .box .details .menu {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    right: .6rem;
+    font-size: 20px;
+}
+.wish_lists .right_list .items_two .box .details .items_details{
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem;
+    top: 1.8rem;
+    max-width: 16rem;
+    right: 5px;
+    border-radius: .7rem;
+    border: 1px solid rgb(208, 208, 208);
+    box-shadow: rgba(0 0 0 /.1)0 5px 10px;
+}
+.wish_lists .right_list .items_two .box .details .none{
+    display: none;
+}
+.wish_lists .right_list .items_two .box .details .items_details
+.item_box{
+    position: relative;
+}
+.wish_lists .right_list .items_two .box .details
+ .items_details .close{
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: -5px;
+    width: 20px;
+    z-index: 333;
+    height: 20px;
+    border: 1px solid skyblue;
+ }
+ .wish_lists .right_list .items_two .box .details
+ .items_details .content{
+    font-size: 14px;
+    margin: 5px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding-top: 1.0rem;
+ }
+ .wish_lists .right_list .items_two .box .details
+ .items_details .content p{
+    padding: 5px 0;
+    cursor: pointer;
+    display: inline;
+    /* width: 100%; */
+ }
+
+
+
+ .wish_lists .right_list .items_two .box .details
+ .items_details .content .share_details{
+    position: absolute;
+    top: 6rem;
+    left: -4rem;
+ }
+ .wish_lists .right_list .items_two .box .details
+ .items_details .content .share_details_close{
+    display: none;
+ }
+ .wish_lists .right_list .items_two .box .details
+ .items_details .socail_media{
+    background-color: #fff;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 4px;
+    
+ }
+ .wish_lists .right_list .items_two .box .details
+ .items_details .socail_media .icon{
+    padding: 0 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    border-bottom: 1px solid rgb(222, 222, 222);
+ }
+ .wish_lists .right_list .items_two .box .details
+ .items_details .socail_media .icon span{
+    font-size: 23px;
+    margin-top: 3px;
+ }
+ 
+ 
+
+
+
+
+ .wish_lists .quickView{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index:1001;
+    background-color: rgba(0, 0, 0, 0.35);
+ }
+ .wish_lists .quickViewClose{
+    display: none;
+ }
+ .wish_lists .quickView .quick_container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+    justify-content: center;
+ }
+ .wish_lists .quickView .quick_container .box{
+    display: flex;
+    width: 50rem;
+    height: 30rem;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: rgba(0 0 0 /.1)5px 8px 12px 3px;
+    padding: 1rem;
+    background-color: #fff;
+ }
+ .wish_lists .quickView .quick_container .box .img{
+    width: 50%;
+ }
+ .wish_lists .quickView .quick_container .box .img img{
+    width: 20rem;
+ }
+
+ .wish_lists .quickView .quick_container .box .text_content{
+    display: flex;
+    position: relative;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+  .close_btn{
+    position: absolute;
+    top: -0;
+    right: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid rgb(93, 255, 236);
+    border-radius: 5px;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text{
+    padding: 2rem;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .brand{
+    color: #3b3b7a;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .name{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .price{
+    font-size: 22px;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .rating{
+    display: flex;
+    padding: 8px 0;
+    align-items: center;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .rating .star{
+    color: #f49a3b;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .rating .qty{
+font-size: 13px;
+color: #3b3b7a;
+
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .rating .qty:hover{
+    color: #f49a3b;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .view_logo p{
+    font-weight: 600;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .button{
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .button button{
+    cursor: pointer;
+    text-align: 13px;
+    padding: 8px;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .button button:first-child{
+    border: none;
+    border-radius: 1rem;
+    background-color: #f3b538;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .button button:hover:first-child{
+    background-color: #f49a3b;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .button button:last-child{
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 5px;
+    box-shadow: rgba(0 0 0 /.1)2px 3px 5px;
+    background-color: #fff;
+ }
+ .wish_lists .quickView .quick_container .box .text_content
+ .text .button button:hover:last-child{
+    box-shadow: rgba(0 0 0 /.1)2px 5px 8px;
+ }
+
+ .wish_lists .contral-btn{
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    width: 100%;
+    z-index: 7;
+    
+}
+.wish_lists .contral-btn .next, 
+.wish_lists .contral-btn .prev{
+    border: none;
+    background: none;
+    font-size: 35px;
+    color: #fff;
+    border: 1px solid rgb(182, 182, 182);
+    width: 3rem;
+    height: 5rem;
+    border-radius: 5px;
+    display: flex;
+    padding: 1rem 0 .8rem 0;
+    align-items: center;
+    justify-content: center;
+    opacity: .6;
+    font-weight: 100;
+    cursor: pointer;
+}
+.wish_lists .contral-btn .next:hover, 
+.wish_lists .contral-btn .prev:hover{
+    background-color: #cecece55;
+}
+.wish_lists .contral-btn .next{
+    right: 2%;
+    position: absolute;
+}
+.wish_lists .contral-btn .prev{
+    left: 2%;
+    position: absolute;
+}
+
+
+
+
+.wish_lists .invite_list {
+    position: fixed;
+    width: 100%;
+    top: 5rem;
+    z-index: 888;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.423);
+}
+.wish_lists .inviteClose{
+    display: none;
+}
+.wish_lists .invite_list .invite_container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.wish_lists .invite_list .invite_container .content{
+    background-color: #fff;
+    max-width: 25rem;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 8px;
+    flex-direction: column;
+    
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.205)3px 8px 15px;
+}
+.wish_lists .invite_list .content .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 1.5rem;
+    background-color: #e5e5e5;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+.wish_lists .invite_list .content .head h4{
+    font-weight: 600;
+}
+.wish_lists .invite_list .content .head span{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(201, 201, 201);
+    
+}
+.wish_lists .invite_list .content .tbody{
+    padding: 1rem 1.5rem;
+}
+.wish_lists .invite_list .content .tbody .title{
+    font-weight: 500;
+}
+
+.wish_lists .invite_list .content .tbody p:first-child{
+    padding:3px 7px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius:5px;
+    margin: 6px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+}
+.wish_lists .invite_list .content .tbody p:last-child{
+    opacity: .8;
+    font-size: 13px;
+    margin-bottom: 5px;
+}

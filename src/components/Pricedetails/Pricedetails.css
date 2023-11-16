@@ -1,0 +1,36 @@
+.price_details{
+    flex: 1 1 40%;
+    width: 45%;
+    height: 45%;
+    text-align: center;
+}
+.price_details .box{
+    max-height: 11rem;
+    background-color: white;
+    cursor: pointer;
+}
+.price_details .box .name{
+    width: 10rem;
+    overflow: hidden;
+    height: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    /* text-align: center; */
+}
+
+.price_details .box .name span{
+    display: inline-block;
+    
+    
+}
+.price_details .img{
+    max-width: 8rem;
+    display: flex;
+    margin: auto;
+}
+.price_details img{
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}

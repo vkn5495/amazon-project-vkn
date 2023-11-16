@@ -1,0 +1,13 @@
+
+.TowFlex .container img{
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   object-fit: cover;
+}
+.TowFlex .container{
+    overflow: hidden;
+}
+.TowFlex .container .img{
+    align-items: center;
+}

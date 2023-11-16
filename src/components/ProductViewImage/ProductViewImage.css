@@ -1,0 +1,45 @@
+.ViewImage{
+    background-color: #fff;
+}
+.ViewImage .container{
+    padding: 1rem;
+}
+.ViewImage .container img{
+    width: 100%;
+}
+
+.ViewImage .contral-btn{
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    width: 100%;
+    z-index: 7;
+    
+}
+
+.ViewImage .contral-btn .next, 
+.ViewImage .contral-btn .prev{
+    border: none;
+    background: none;
+    font-size: 42px;
+    color: #fff;
+    opacity: .6;
+    padding:  2rem 10px;
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.ViewImage .contral-btn .next:hover, 
+.ViewImage .contral-btn .prev:hover{
+    border: 1px solid rgb(232, 232, 232);
+    background-color: #d4d4d4;
+}
+
+.ViewImage .contral-btn .next{
+    right: 2%;
+    position: absolute;
+}
+.ViewImage .contral-btn .prev{
+    left: 2%;
+    position: absolute;
+}

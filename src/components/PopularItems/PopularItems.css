@@ -1,0 +1,56 @@
+.PopularItems .container{
+    padding: 1rem;
+}
+.PopularItems .container .header{
+    display: flex;
+    gap: 1rem;
+    margin-left: 3rem;
+    margin-bottom: -2rem;
+    align-items: center;
+}
+.PopularItems .container .header .img{
+    padding:8px 9px 4px 9px ;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: rgba(0 0 0 /.1) 0 5px 3px;
+}
+.PopularItems .container .header img{
+    width: 4.7rem;
+    border-radius: 5px;
+}
+.PopularItems .container .header h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.PopularItems .container .list{
+    display: flex;
+    background: rgb(229, 229, 229);
+    padding: 3rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow: auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.PopularItems .container .list .box{
+    padding: 1rem;
+    min-width: 15rem;
+    background-color: #fff;
+    box-shadow: rgba(0 0 0 /.1) 0 5px 8px;
+}
+.PopularItems .container .list img{
+    height: 10rem;
+    object-fit: contain;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.PopularItems .container .list .img{
+    margin: auto;
+    max-width: 10rem;
+    margin-top: 1rem;
+}
+.PopularItems .container .list .box h3{
+    display: block;
+}

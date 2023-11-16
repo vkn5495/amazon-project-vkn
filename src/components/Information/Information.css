@@ -1,0 +1,32 @@
+.information .container{
+    padding: 1rem;
+}
+.information .container h3{
+    font-size: 17px;
+    color: #ba3636;
+}
+.information .container .list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.information .container .list h3{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.information .container .list tr{
+    width: 100%;
+}
+.information .container .list th,td{
+    font-size: 14px;
+    text-align: left;
+    padding:5px 10px;
+    border-bottom: 1px solid #cacaca;
+    width: 49%;
+    font-weight: 400;
+}
+.information .container .list th{
+    background-color: #e6e6e6;
+}

@@ -1,0 +1,44 @@
+.compare_product{
+    background-color: #fff;
+}
+.compare_product .container{
+    padding: 1rem;
+}
+.compare_product .container h2{
+    font-size: 30px;
+text-align: center;
+
+}
+.compare_product .container .content .img_box{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.compare_product .container .content .img_box img{
+    width: 17rem;height: 17rem;
+    object-fit: contain;
+}
+.compare_product .container .content .img_box .heading{
+    text-align: center;
+    font-weight: 600;
+}
+.compare_product .container .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.compare_product .container .content .text{
+    padding: 1rem;
+}
+.compare_product .container .content .text .text_box{
+    padding: 7px 0;
+}
+.compare_product .container .content .text .text_box .header{
+    font-size: 14px;
+    font-weight: 600;
+}
+.compare_product .container .content .text .text_box .details{
+    font-weight: 200;
+    opacity: .7;
+    font-size: 14px;
+}

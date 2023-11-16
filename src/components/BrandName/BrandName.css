@@ -1,0 +1,58 @@
+.brand_name{
+    background-color: #fff;
+}
+.brand_name .container{
+    margin: 1rem;
+}
+.brand_name .container .heading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.brand_name .container .heading p{
+    font-size: 13px;
+    padding: 3px 10px;
+    background-color: rgb(65, 65, 65);
+    color: #d8d8d8;
+}
+.brand_name .container .heading h4{
+    font-weight: 600;
+}
+.brand_name .container .details{
+    margin: 1rem 0;
+    font-size: 13px;
+    display: flex;
+    gap:3rem ;
+}
+.brand_name .container .details .line{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.brand_name .container .details .line span{
+    font-size: 21px;
+    color: green;
+}
+
+.brand_name .container .details .line p{
+    font-weight: 500;
+}
+.brand_name .container .details .high{
+    padding: 1rem;
+    font-weight: 600;
+}
+.brand_name .container .details .list{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding:0 1rem;
+}
+.brand_name .container .details .list .flex{
+    padding: 4px;
+    background-color: #efeeee;
+}
+.brand_name .container .details .list span:nth-child(2){
+    font-size: 12px;
+    margin-left: 5px;
+    background:linear-gradient(red,tran);
+}

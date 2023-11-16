@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  transition: all ease .1s;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(#9f9f9f, white, #9f9f9f);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff22e6, #642bff);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+.a_flex {
+  display: flex;
+}
+
+.b_flex {
+  display: flex;
+  align-items: center;
+}
+
+.c_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  color: rgb(15, 15, 169);
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(208, 48, 48);
+  text-decoration: underline;
+}
+
+.link_one {
+  color: #642bff;
+  cursor: pointer;
+}
+
+.link_one:hover {
+  color: rgb(208, 48, 48);
+}
+
+.link_two:hover {
+  cursor: pointer;
+  color: rgb(208, 48, 48);
+}
+
+hr {
+  opacity: .5;
+}
+
+.lable_one {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  width: 4.5rem;
+  margin: 5px 0;
+  justify-content: center;
+  background: #b3a5be;
+}
+
+.lable_one .img_one {
+  width: .7rem;
+  /* padding-top: 2px; */
+  display: inline-block;
+}
+
+.lable_one img {
+  width: 100%;
+}
+
+.lable_one span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+/* homepage  */
+.cart_items_ds {
+  width: 100%;
+  position: relative;
+}
+.cart_items_ds .let_home_width{
+  width: 100%;
+}
+.cart_items_ds .let_home {
+  position: relative;
+  width: 90%;
+}
+.cart_items_ds .display_none{
+  display: none;
+}
+
+.cart_items_ds .let_cart_item {
+  position: fixed;
+  width: 10%;
+  background-color: #fff;
+  top: 21px;
+  height: 100%;
+  min-height: 80vh;
+  border: 1px solid rgb(174, 174, 174);
+  right: 0;
+  margin-top: 5rem;
+  z-index: 779;
+  box-shadow: rgba(0 0 0 /.2)-10px 0 20px;
+}

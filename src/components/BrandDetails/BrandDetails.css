@@ -1,0 +1,110 @@
+.brand_details img{
+    width: 5rem;
+}
+.brand_details .container{
+    padding: 1rem;
+}
+.brand_details .container h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.brand_details .container .brand_category{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 1rem 5px 0;
+}
+.brand_details .container .brand_category img{
+    width: 4rem;
+}
+.brand_details .container .brand_category .name{
+    border-left: 1px solid #cfcfcf;
+    padding: 1rem;
+}
+.brand_details .container .brand_category .name
+.heading{
+    font-weight: 500;
+    font-size: 17px;
+}
+.brand_details .container .brand_category .name p{
+    font-size: 13px;
+}
+.brand_details .container .img{
+    
+    position: relative;
+    overflow: hidden;
+}
+.brand_details .container .img .bg_img{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+}
+
+.brand_details .container .img .bg_img img{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+.brand_details .container .img .img_content{
+    display: flex;
+    /* margin: 1rem 0; */
+    height: 90%;
+    margin: auto;
+}
+.brand_details .container .img .img_content .box{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 100%;
+    align-items: center;
+    margin-right: 7px;
+}
+.brand_details .container .img .img_content .box .text .img{
+    height: 50%;
+}
+.brand_details .container .img .img_content .box .text span{
+    font-size: 30px;
+    color: blue;
+}
+.brand_details .container .img .img_content .box .text .straight{
+    display: flex;
+}
+.brand_details .container .img .img_content .box .text .straight .star{
+    color: rgb(176, 37, 37);
+}
+.brand_details .container .img .img_content .box .text{
+    pad: 3px;
+    justify-content: flex-end;
+}
+.brand_details .container .img .img_content .box .text .name{
+    font-size: 13px;
+    max-height: 2.5rem;
+    overflow: hidden;
+}
+.brand_details .container .img .img_brand{
+    top:0;
+    left: 33%;
+    position: absolute;
+    display: grid;
+    height: 100%;
+    z-index: 1;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.brand_details .container .img .blank{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0 ;
+    bottom: 0;
+    /* height: 10rem; */
+    background: linear-gradient(90deg,transparent 20%,#ebebeb 30%,#ffffff);
+}
+
+.brand_details .container .img .img_brand .img_content img{
+    width: 7rem;
+    max-height: 7rem;
+    object-fit: contain;
+}

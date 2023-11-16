@@ -1,0 +1,288 @@
+.navbar .nav{
+    background: #010f1c;
+    display: flex;
+    align-items: center;
+    height: 3.8rem;
+    justify-content: space-between;
+    padding: 5px;
+   
+}
+
+.navbar .container{
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    color: #fff;
+    z-index: 1000;
+}
+.navbar .container .nav_left{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+.navbar .container .nav{
+    position: relative;
+}
+.navbar .container .nav .homeHover{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.481);
+    width: 100%;
+    height: 100vh;
+    top: 3.8rem;
+    left: 0;
+}
+.navbar .container .nav .displayNone{
+    display: none;
+}
+.navbar .container .nav .homeHover .content{
+    right: 12rem;
+    position: absolute;
+    padding:1rem 2rem;
+    display: flex;
+    gap: 2rem;
+    /* align-items: center; */
+    border: 1px solid grey;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #fafafa;
+    color: #010f1c;
+}
+.navbar .container .nav .homeHover .content h4{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.navbar .container .nav .homeHover .content p{
+    font-size: 13px;
+    padding: 5px 0;
+    color: #4d4d4d;
+    cursor: pointer;
+}
+.navbar .container .nav .homeHover .content p:hover{
+    color: #e97272;
+    text-decoration: underline;
+}
+.navbar .container .nav .homeHover .content hr{
+    margin: 3px 0;
+}
+.navbar .container .nav .nav_left .brand{
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid #010f1c;
+    padding: 9px 8px 9px 0;
+}
+.navbar .container .nav .nav_left .brand span{
+    font-size: 15px;
+}
+.navbar .container .nav_left .brand:hover{
+    border: 1px solid wheat;
+}
+.navbar .container .nav_left .brand span{
+    text-transform: lowercase;
+    margin-top: 7px;
+
+}
+.navbar .container .nav_left .brand img{
+    width: 7rem;
+}
+.navbar .container .nav .nav_left .nav_adress{
+    display: flex;
+    align-items: self-end;
+    border: 1px solid #010f1c;
+    padding: 9px 8px 9px 5px;
+}
+.navbar .container .nav_left .nav_adress:hover{
+    border: 1px solid wheat;
+}
+.navbar .container .nav .nav_left .nav_adress .icon{
+    color: #d3d3d3;
+    font-size: 18px;
+    padding-bottom: 4px;
+    padding-right: 3px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar .container .nav_left .location span:nth-child(1){
+    color: #d3d3d3;
+    /* width: 100%; */
+    font-size: 13px;
+    display: block;
+}
+.navbar .container .nav_left .location span:nth-child(2){
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+}
+.navbar .container .nav_left .nav_adress .location{
+    width: 7rem;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: left;
+    line-height: 17px;
+}
+
+.navbar .container .nav .nav_middle{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 0 3px;
+}
+/* .navbar .container .nav .nav_middle .nav_input_box{
+    position: relative;
+} */
+.navbar .container .nav .nav_middle .nav_input{
+    width: 100%;
+    margin: auto;
+}
+.navbar .container .nav .nav_middle .nav_product{
+    position: absolute;
+    top: 2.8rem;
+    width: 89%;
+    left: 6.1%;
+    background-color: #fff;
+    color: #010f1c;
+    border-radius: 0 0 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.2)0 15px 20px;
+}
+.navbar .container .nav .nav_middle .nav_product p{
+    padding: 8px 1rem;
+    cursor: pointer;
+}
+.navbar .container .nav .nav_middle .nav_product p:hover{
+    background: linear-gradient(#f4f4f4,white,#e5e4e4);
+}
+.navbar .container .nav .nav_middle .nav_fashion{
+    width: 4.2rem;
+}
+.navbar .container .nav .nav_middle .nav_fashion #products{
+    width: 100%;
+    height: 2.4rem;
+    padding: 7px;
+    color: grey;
+    background-color: #e4e4e4;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    font-size: 13px;
+}
+
+.navbar .container .nav .nav_middle .nav_input input{
+    width: 100%;
+    padding: 12px 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar .container .nav .nav_middle .nav_button{
+    padding:2.5px 10px;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(247, 190, 105);
+    color: #4d4d4d;
+    font-size: 27px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar .container .nav .nav_right{
+    display: flex;
+    align-items: center;
+}
+.navbar .container .nav .nav_right .nav_account{
+    width:10rem;
+    text-align: left;
+    line-height: 17px;
+    border: 1px solid #010f1c;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.navbar .container .nav .nav_right .nav_account span{
+    display: flex;
+    align-items: self-end;
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+    margin-bottom: 11px;
+    margin-left: 4px;
+}
+
+.navbar .container .nav .nav_right .nav_return
+{
+    width:6rem;
+    flex-direction: column;
+    line-height: 17px;
+    align-items: center;
+    text-align: left;
+    border: 1px solid #010f1c;
+    padding: 10px;
+}
+
+
+.navbar .container .nav .nav_right .nav_account:hover,
+.navbar .container .nav .nav_right .nav_return:hover{
+    border: 1px solid wheat;
+}
+.navbar .container .nav .nav_right p{
+    display: inline-block;
+    color: #f0f0f0;
+    /* width: 100%; */
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.navbar .container .nav .nav_right h4{
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+}
+.navbar .container .nav .nav_right .nav_cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #010f1c;
+}
+.navbar .container .nav .nav_right .nav_cart:hover{
+    border: 1px solid wheat;
+}
+.navbar .container .nav .nav_right .nav_cart span:first-child{
+    position: relative;
+}
+.navbar .container .nav .nav_right .nav_cart span:first-child .icon{
+    font-size: 36px;
+}
+.navbar .container .nav .nav_right .nav_cart span:last-child{
+    font-weight: 700;
+    font-size: 15px;
+}
+.navbar .container .nav .nav_right .nav_cart span:first-child .count{
+    position: absolute;
+    width: 22px;
+    height: 23px;
+    background-color: #010f1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -2px;
+    right: 7px;
+    border-radius: 50%;
+    color: #e97272;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+

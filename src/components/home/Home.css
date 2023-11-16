@@ -1,0 +1,103 @@
+.home {
+    width: 100%;
+    max-height: 80vh;
+    margin-top: 4.9rem;
+    z-index: -100;
+    /* overflow: hidden; */
+}
+
+.home .container .img {
+    height: 50vh;
+    margin-top: 1rem;
+}
+
+.home .container .silder1 {
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image1.jpg');
+    background-size: cover;
+}
+.home .container .silder2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent ,transparent , #e2e2e2 ),url('../../img/homePagesImages/image2.jpg');
+    background-size: cover;
+}
+
+.home .container .silder3 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image3.jpg');
+    background-size: cover;
+}
+
+.home .container .silder4 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image4.jpg');
+    background-size: cover;
+}
+
+.home .container .silder5 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image5.jpg');
+    background-size: cover;
+}
+
+.home .container .silder6 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image6.jpg');
+    background-size: cover;
+}
+
+.home .container .silder7 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image7.jpg');
+    background-size: cover;
+}
+
+.home .container .silder8 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,transparent , #e2e2e2),url('../../img/homePagesImages/image8.jpg');
+    background-size: cover;
+}
+
+.home .container {
+    max-height: 50rem;
+    width: 100%;
+    margin: auto;
+}
+
+.home .contral-btn {
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    width: 100%;
+    z-index: 7;
+
+}
+
+.home .contral-btn .next,
+.home .contral-btn .prev {
+    border: none;
+    background: none;
+    font-size: 42px;
+    color: #fff;
+    opacity: .6;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.home .contral-btn .next {
+    right: 2%;
+    position: absolute;
+}
+
+.home .contral-btn .prev {
+    left: 2%;
+    position: absolute;
+}

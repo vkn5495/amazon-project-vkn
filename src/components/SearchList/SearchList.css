@@ -1,0 +1,238 @@
+.search_bar{
+    margin-top:39px;
+    position: relative;
+}
+.search_bar .container{
+    background-color: #2b2d3f;
+    right: 0;
+    left: 0;
+    top: 61px;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    color: #fff;
+    z-index: 999;
+}
+.search_bar .container .search_left{
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.search_bar .container .search_left .icon{
+    border: 1px solid #2b2d3f;
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+}
+.search_bar .container .icon:hover{
+    border: 1px solid wheat;
+}
+.search_bar .container .search_left span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.search_bar .container .search_left ul{
+    flex-wrap: nowrap;
+}
+.search_bar .container .search_left li{
+    border: 1px solid #2b2d3f;
+    padding: 8px 8px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 400;
+}
+.search_bar .container .search_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.search_bar .container li:hover{
+    border: 1px solid wheat;
+}
+.search_bar .container .search_right .home_return{
+    padding:3px 5px;
+    
+}
+.search_bar .container .search_right .home_return span:first-child:hover{
+    border: 1px solid wheat;
+}
+.search_bar .container .search_right .home_return span:first-child{
+    font-size: 20px;
+    cursor: pointer;
+    color: wheat;
+    margin-right: .5rem;
+    padding:3px 8px;
+}
+.search_bar .container .search_right .text{
+    border: 1px solid #2b2d3f;
+    padding: 8px 8px;
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    color: #c2c2c2;
+}
+.search_bar .container .text:hover{
+    border: 1px solid wheat;
+}
+
+
+
+.search_bar .all_items{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1001;
+    height: 100vh;
+    /* transition: 0.5s; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.search_bar .toggle{
+    left: 0;
+      
+}
+.search_bar .toggle_close{
+left: -100%;
+background-color: transparent;
+}
+.search_bar .all_items .item_container{
+    max-width: 25rem;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+    background: white;
+}
+
+.search_bar .all_items .item_container .close_btn{
+    position: absolute;
+    top: .5rem;
+    right:-2.5rem;
+    color: #e9e9e9;
+    cursor: pointer;
+    font-size: 25px;
+}
+.search_bar .all_items .item_container .list_of_items{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    position: relative;
+}
+.search_bar .all_items .item_container .width_gap{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    transition: 0.5s;
+}
+.search_bar .all_items .item_container .list_items{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+    overflow: scroll;
+}
+.search_bar .all_items .item_container .take_left{
+    display: none;
+}
+.search_bar .all_items .item_container .take_right{
+    display: none;
+}
+.search_bar .all_items .item_container .list_of_items .heading{
+    padding: 8px 1.5rem;
+    background-color: #2b2d3f;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search_bar .all_items .item_container .list_of_items .heading h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.search_bar .all_items .item_container
+ .list_of_items .heading .users{
+    width: 1.7rem;
+    height:  1.7rem;
+    font-size: 018px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.search_bar .all_items .item_container
+ .list_of_items .list_items .box .head{
+    padding:10px 2rem 5px 2rem;
+    font-weight: 600;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items .box .sub_head{
+    padding-bottom: 5px;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items .box .sub_head{
+    font-size: 13px;
+    color: rgb(72, 72, 72);
+    padding: 8px 2rem;
+    cursor: pointer;
+    width: 100%;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items .box
+  .sub_head:hover{
+    background-color: #e9e9e9;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items .box
+  .sub_head .icon{
+    font-weight: 800;
+    font-size: 15px;
+    opacity: .5;
+
+  }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items .box
+  .sub_head:hover .icon{
+    opacity: 1;
+  }
+  .search_bar .all_items .item_container
+ .list_of_items .list_items_details{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    overflow-y: scroll;
+    position: absolute;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items_details .title{
+    padding:6px 2rem;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    align-items: center;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items_details .title span{
+    font-size: 23px;
+    padding-top: 5px;
+    opacity: .5;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items_details .title h3{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items_details .head{
+    padding:8px 2rem;
+    font-weight: 600;
+    font-size: 17px;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items_details .details{
+    padding:8px 2rem;
+    font-size: 13px;
+    opacity: .8;
+    cursor: pointer;
+ }
+ .search_bar .all_items .item_container
+ .list_of_items .list_items_details .details:hover{
+    background-color: #e9e9e9
+ }
